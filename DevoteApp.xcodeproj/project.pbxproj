@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F4EF68C269A0CA2001F1DCC /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EF68B269A0CA2001F1DCC /* NewTaskItemView.swift */; };
+		8F4EF68E269A1D61001F1DCC /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EF68D269A1D61001F1DCC /* BlankView.swift */; };
 		8F61B162268BA3BE004B45D3 /* DevoteAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F61B161268BA3BE004B45D3 /* DevoteAppApp.swift */; };
 		8F61B164268BA3BE004B45D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F61B163268BA3BE004B45D3 /* ContentView.swift */; };
 		8F61B166268BA3C1004B45D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F61B165268BA3C1004B45D3 /* Assets.xcassets */; };
@@ -20,10 +22,13 @@
 		8F61B185268BA93B004B45D3 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F61B182268BA93B004B45D3 /* sound-tap.mp3 */; };
 		8F61B186268BA93B004B45D3 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F61B183268BA93B004B45D3 /* sound-ding.mp3 */; };
 		8F61B187268BA93B004B45D3 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F61B184268BA93B004B45D3 /* sound-rise.mp3 */; };
+		8F75D5B926A07F2D00D69BAF /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75D5B826A07F2D00D69BAF /* ListRowItemView.swift */; };
 		8F7C9E4026911EAA003A9ED6 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C9E3F26911EAA003A9ED6 /* BackgroundImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F4EF68B269A0CA2001F1DCC /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		8F4EF68D269A1D61001F1DCC /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		8F61B15E268BA3BE004B45D3 /* DevoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F61B161268BA3BE004B45D3 /* DevoteAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteAppApp.swift; sourceTree = "<group>"; };
 		8F61B163268BA3BE004B45D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +44,7 @@
 		8F61B182268BA93B004B45D3 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		8F61B183268BA93B004B45D3 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		8F61B184268BA93B004B45D3 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		8F75D5B826A07F2D00D69BAF /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
 		8F7C9E3F26911EAA003A9ED6 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +149,9 @@
 			children = (
 				8F61B163268BA3BE004B45D3 /* ContentView.swift */,
 				8F7C9E3F26911EAA003A9ED6 /* BackgroundImageView.swift */,
+				8F4EF68B269A0CA2001F1DCC /* NewTaskItemView.swift */,
+				8F4EF68D269A1D61001F1DCC /* BlankView.swift */,
+				8F75D5B826A07F2D00D69BAF /* ListRowItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -221,9 +230,12 @@
 			files = (
 				8F61B17D268BA8F5004B45D3 /* CheckboxStyle.swift in Sources */,
 				8F61B16B268BA3C1004B45D3 /* Persistence.swift in Sources */,
+				8F4EF68E269A1D61001F1DCC /* BlankView.swift in Sources */,
 				8F61B164268BA3BE004B45D3 /* ContentView.swift in Sources */,
 				8F7C9E4026911EAA003A9ED6 /* BackgroundImageView.swift in Sources */,
 				8F61B179268BA56C004B45D3 /* Constant.swift in Sources */,
+				8F75D5B926A07F2D00D69BAF /* ListRowItemView.swift in Sources */,
+				8F4EF68C269A0CA2001F1DCC /* NewTaskItemView.swift in Sources */,
 				8F61B16E268BA3C2004B45D3 /* DevoteApp.xcdatamodeld in Sources */,
 				8F61B17A268BA56C004B45D3 /* SoundPlayer.swift in Sources */,
 				8F61B180268BA920004B45D3 /* HideKeyboardExtension.swift in Sources */,
